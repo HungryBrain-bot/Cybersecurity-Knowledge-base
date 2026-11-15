@@ -44,7 +44,7 @@ and, where the topic warrants it, sections for a summary, how it works, an attac
 
 - Technique IDs, names and tactics are checked against the current MITRE ATT&CK Enterprise dataset.
 - Platform details (APIs, event IDs, registry paths, commands, cloud behaviour) are checked against vendor primary documentation (Microsoft Learn, AWS, Kubernetes, Docker, Linux man pages) and, where relevant, CVE records.
-- Content is curated and written fresh from Venu's personal cybersecurity knowledge base. It is original prose, not copied from any third-party text.
+- Content is curated and written fresh from a personal cybersecurity knowledge base. It is original prose, not copied from any third-party text.
 - Corrections found while verifying are logged in [`KB-CORRECTIONS.md`](KB-CORRECTIONS.md).
 
 ## Status
