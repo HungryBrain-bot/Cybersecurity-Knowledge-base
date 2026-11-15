@@ -21,3 +21,9 @@ Note: the ATT&CK "Impair Defenses" (T1562) sub-techniques were restructured unde
 - All other ATT&CK IDs present in the Cloud batch were confirmed current.
 - Terminology refreshed in the published files where vendors renamed products (for example Azure AD → Microsoft Entra ID, 2023; Azure Security Center → Microsoft Defender for Cloud). These are wording updates, not KB errors, and are listed here only so the Notion source can be refreshed if desired.
 - OWASP Top 10 references updated to the 2025 edition where the KB cited an older list.
+
+## Network batch (terminology current as of ATT&CK Enterprise v2)
+
+- **T1557.001** is now named **"Name Resolution Poisoning and SMB Relay"** (previously "LLMNR/NBT-NS Poisoning and SMB Relay"). Files use the current name. Affected KB concepts: "Network Compromise: Responder, CrackMapExec and Credential Capture", "NTLM Relay Attack".
+- **T1599 (Network Boundary Bridging)** sits under the **Defense Impairment** tactic (TA0112) in this dataset version, the same restructure that produced T1685. Noted in "Bypassing Network Access Control".
+- All other ATT&CK IDs present in the Network batch were confirmed current against the Enterprise dataset.
