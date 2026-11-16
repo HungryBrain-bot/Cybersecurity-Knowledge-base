@@ -39,3 +39,7 @@ Found while writing the 58 concepts that were in Notion but missing from the rep
 - Encryption Key Recovery from Memory: Notion implies BitLocker FVEK plug-ins in Volatility; none exist in Volatility core (2 or 3). VeraCrypt support was not confirmed and is omitted.
 - Network Artifacts in Memory: Volatility 2 connections/sockets are XP/2003 only; current names are Volatility 3 windows.netscan / windows.netstat / linux.sockstat / linux.ip.
 - Kernel Exploitation: no Microsoft primary source found for the "Windows blocks NULL-page mapping" mitigation; omitted.
+- Mutexes as Malware Infection Markers: Notion has no MITRE ID; ATT&CK now has T1480.002 Mutual Exclusion for exactly this behaviour.
+- Malware Identification and Manual Removal: Notion presents WMIC as a current tool; Microsoft deprecated the WMIC utility as of Windows 10 21H1 (use PowerShell CIM cmdlets).
+- MBR Ransomware (Petya and Satana): Salsa20/MFT encryption, fake CHKDSK and NtRaiseHardError details are not in Microsoft's 2017 Petya analysis; the file marks them unverified pending a primary source for the 2016 variant.
+- Rootkit Covert Channels: TDI (the book's interface) is not supported after Windows Vista per Microsoft; current equivalents are WFP callout drivers, NDIS filter drivers and Winsock Kernel.
