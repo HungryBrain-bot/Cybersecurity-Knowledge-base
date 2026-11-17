@@ -27,3 +27,19 @@ Note: the ATT&CK "Impair Defenses" (T1562) sub-techniques were restructured unde
 - **T1557.001** is now named **"Name Resolution Poisoning and SMB Relay"** (previously "LLMNR/NBT-NS Poisoning and SMB Relay"). Files use the current name. Affected KB concepts: "Network Compromise: Responder, CrackMapExec and Credential Capture", "NTLM Relay Attack".
 - **T1599 (Network Boundary Bridging)** sits under the **Defense Impairment** tactic (TA0112) in this dataset version, the same restructure that produced T1685. Noted in "Bypassing Network Access Control".
 - All other ATT&CK IDs present in the Network batch were confirmed current against the Enterprise dataset.
+
+## Windows gap-fill batch (PRs #36 to #44)
+
+Found while writing the 58 concepts that were in Notion but missing from the repo. ATT&CK IDs checked against the same Enterprise dataset as above.
+
+- Image loader: Notion lists KnownDLLs before API sets/SxS/.local; Microsoft Learn order is DLL redirection, API sets, SxS, loaded-module list, KnownDLLs. File uses the Microsoft order.
+- Protected Processes (PPL), Pico Processes and Trustlets: Notion MITRE ID T1562 is revoked; file uses T1685 (Disable or Modify Tools) plus T1003.001 and T1068.
+- Monitoring Operating System Events: Notion MITRE ID T1070.001 is revoked; file uses T1685.005 (Clear Windows Event Logs). Notion also lists System event 104 (log cleared); not confirmed in the Microsoft auditing docs used, so it was omitted.
+- Command History Recovery: Notion says cmd.exe history lived in csrss.exe before Windows 7; not confirmed from a primary source, so the file names only conhost.exe (Volatility 3 cmdscan/consoles). Notion's "ConsoleHost_history.txt" is stated in Microsoft docs only as the pattern $($Host.Name)_history.txt.
+- Encryption Key Recovery from Memory: Notion implies BitLocker FVEK plug-ins in Volatility; none exist in Volatility core (2 or 3). VeraCrypt support was not confirmed and is omitted.
+- Network Artifacts in Memory: Volatility 2 connections/sockets are XP/2003 only; current names are Volatility 3 windows.netscan / windows.netstat / linux.sockstat / linux.ip.
+- Kernel Exploitation: no Microsoft primary source found for the "Windows blocks NULL-page mapping" mitigation; omitted.
+- Mutexes as Malware Infection Markers: Notion has no MITRE ID; ATT&CK now has T1480.002 Mutual Exclusion for exactly this behaviour.
+- Malware Identification and Manual Removal: Notion presents WMIC as a current tool; Microsoft deprecated the WMIC utility as of Windows 10 21H1 (use PowerShell CIM cmdlets).
+- MBR Ransomware (Petya and Satana): Salsa20/MFT encryption, fake CHKDSK and NtRaiseHardError details are not in Microsoft's 2017 Petya analysis; the file marks them unverified pending a primary source for the 2016 variant.
+- Rootkit Covert Channels: TDI (the book's interface) is not supported after Windows Vista per Microsoft; current equivalents are WFP callout drivers, NDIS filter drivers and Winsock Kernel.

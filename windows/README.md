@@ -19,6 +19,18 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Security Descriptors and SDDL](internals/security-descriptors-and-sddl.md) | T1222.001 |
 | [Windows Registry Internals (Hives and Structure)](internals/windows-registry-internals.md) | — |
 | [PE File Format (Portable Executable)](internals/pe-file-format.md) | — |
+| [Advanced Local Procedure Call (ALPC) and Windows Notification Facility](internals/alpc-and-windows-notification-facility.md) | — |
+| [Windows Image Loader and API Sets](internals/image-loader-and-api-sets.md) | T1574.001, T1129, T1622 |
+| [Windows Kernel Deferred Execution (APCs, DPCs, Work Items, Timers, Callbacks)](internals/kernel-deferred-execution-apcs-dpcs-work-items.md) | T1055.004, T1014 |
+| [Windows Kernel Driver Structure and IRP Handling](internals/kernel-driver-structure-and-irp-handling.md) | T1014, T1543.003, T1068 |
+| [Thread Scheduling and Context Switching](internals/thread-scheduling-and-context-switching.md) | T1055.003, T1497.003 |
+| [Windows Trap, Interrupt, Exception and System Service Dispatching](internals/trap-interrupt-exception-and-system-service-dispatching.md) | T1014, T1106 |
+| [Windows Cache Manager and File Systems (NTFS, ReFS, Filter Drivers)](internals/cache-manager-and-file-systems.md) | T1564.004, T1006, T1685 |
+| [CPU Side-Channel Vulnerabilities and Windows Mitigations (KVA Shadow, Retpoline)](internals/cpu-side-channel-vulnerabilities-and-windows-mitigations.md) | — |
+| [Windows Hypervisor and Virtualization Stack (Hyper-V)](internals/hyper-v-hypervisor-and-virtualization-stack.md) | T1611, T1564.006 |
+| [Windows Job Objects and Containers (Server Silos)](internals/job-objects-and-server-silos.md) | T1611 |
+| [Protected Processes (PPL), Pico Processes and Trustlets](internals/protected-processes-ppl-pico-and-trustlets.md) | T1003.001, T1685, T1068 |
+| [WoW64 (32-bit on 64-bit, Redirection and Emulation)](internals/wow64-32-bit-on-64-bit.md) | T1106, T1055 |
 
 ## Credential access and authentication
 
@@ -111,6 +123,9 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Stack Buffer Overflows](exploitation/stack-buffer-overflows.md) | T1068 |
 | [Return-Oriented Programming (ROP)](exploitation/return-oriented-programming.md) | T1068 |
 | [Driver Signature Enforcement and BYOVD](exploitation/driver-signature-enforcement-and-byovd.md) | T1068, T1553.006, T1211 |
+| [Vulnerabilities in Security Software (AV Self-Protection)](exploitation/vulnerabilities-in-security-software.md) | T1068, T1685, T1574.009, T1574.001, T1203 |
+| [Kernel Exploitation on UNIX, macOS and Windows](exploitation/kernel-exploitation-on-unix-macos-and-windows.md) | T1068 |
+| [UEFI Firmware Vulnerabilities (SMM, S3 Boot Script, SPI Flash, Intel ME)](exploitation/uefi-firmware-vulnerabilities.md) | T1542.001, T1068 |
 
 ## Rootkits
 
@@ -126,6 +141,36 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Hidden Processes and Artifacts](rootkits/hidden-processes-and-artifacts.md) | T1564, T1014, T1564.001 |
 | [Hidden File Systems and Covert Storage](rootkits/hidden-file-systems-and-covert-storage.md) | T1564.005, T1564.004, T1014 |
 | [Rootkit Detection (Memory Forensics, Cross-View, ELAM)](rootkits/rootkit-detection-and-elam.md) | T1014 |
+| [Hardware and Firmware Rootkit Techniques (Keyboard Controller, Microcode)](rootkits/hardware-and-firmware-rootkit-techniques.md) | T1542.001, T1542.002, T1056.001, T1014 |
+| [Rootkit Covert Channels and Network Command and Control](rootkits/rootkit-covert-channels-and-network-c2.md) | T1095, T1205, T1001, T1041, T1014 |
+
+## Reverse engineering
+
+| Concept | ATT&CK |
+|---|---|
+| [Analyzing Malicious DLLs (Exports, rundll32, Host Processes)](reverse-engineering/analyzing-malicious-dlls.md) | T1218.011, T1129, T1574.001 |
+| [Debugging Malware (Breakpoints and Stepping)](reverse-engineering/debugging-malware-breakpoints-and-stepping.md) | T1622 |
+| [Deciphering File Formats and Undocumented Software Interfaces](reverse-engineering/deciphering-file-formats-and-undocumented-interfaces.md) | T1001, T1027 |
+| [PowerShell for Windows Security Research (NtObjectManager)](reverse-engineering/powershell-ntobjectmanager-for-security-research.md) | T1106, T1059.001 |
+| [Recognizing C Code Constructs in Assembly](reverse-engineering/recognizing-c-code-constructs-in-assembly.md) | — |
+| [Reversing Bytecode Malware (.NET, Visual Basic, Java, Python)](reverse-engineering/reversing-bytecode-malware.md) | T1027, T1140, T1059.006 |
+| [Software Piracy, Copy Protection and Cracking](reverse-engineering/software-piracy-copy-protection-and-cracking.md) | T1622, T1027.002 |
+
+## Malware analysis
+
+| Concept | ATT&CK |
+|---|---|
+| [Encryption Identification in Malware (RC4, CryptoAPI, X-Raying)](malware-analysis/encryption-identification-in-malware.md) | T1027, T1140, T1573.001 |
+| [Malicious Document and Web Exploit Analysis (JavaScript, PDF, Office)](malware-analysis/malicious-document-and-web-exploit-analysis.md) | T1566.001, T1204.002, T1203, T1189, T1059.007 |
+| [Malicious Script Deobfuscation (VBS, PowerShell, JavaScript)](malware-analysis/malicious-script-deobfuscation.md) | T1027.010, T1140, T1059.001, T1059.005, T1059.007 |
+| [Malware Identification and Manual Removal Procedures](malware-analysis/malware-identification-and-manual-removal.md) | T1547.001, T1543.003, T1053.005, T1014 |
+| [MBR Ransomware (Petya and Satana)](malware-analysis/mbr-ransomware-petya-and-satana.md) | T1486, T1561.002, T1542.003, T1529, T1053.005 |
+| [Mutexes as Malware Infection Markers](malware-analysis/mutexes-as-malware-infection-markers.md) | T1480.002 |
+| [Post-Mortem Malware Forensics on Windows Systems](malware-analysis/post-mortem-malware-forensics-on-windows.md) | T1547.001, T1543.003, T1053.005, T1036 |
+| [Process and Registry Monitoring (Procmon, Process Explorer, Regshot)](malware-analysis/process-and-registry-monitoring.md) | T1112, T1547.001, T1055 |
+| [System and Network Discovery by Malware](malware-analysis/system-and-network-discovery-by-malware.md) | T1082, T1016, T1018, T1033, T1069.002, T1518.001, T1135 |
+| [Typical Malware Behaviors and Installation Footprints](malware-analysis/typical-malware-behaviors-and-installation-footprints.md) | T1547.001, T1543.003, T1070.006, T1055, T1685, T1112, T1056.001 |
+| [Vulnerability Types and Exploit Analysis in Malware](malware-analysis/vulnerability-types-and-exploit-analysis.md) | T1203, T1189, T1068 |
 
 ## Forensics
 
@@ -137,6 +182,13 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Memory Forensics (RAM Analysis and Volatility)](forensics/memory-forensics-and-volatility.md) | T1055, T1620, T1014 |
 | [Live Response and Triage Collection](forensics/live-response-and-triage-collection.md) | — |
 | [Reverse Engineering Tooling (Ghidra, IDA, WinDbg, x86/x64)](forensics/reverse-engineering-tooling.md) | T1027, T1620 |
+| [BIOS/UEFI Firmware Forensics](forensics/bios-uefi-firmware-forensics.md) | T1542.001, T1495 |
+| [Command History Recovery](forensics/command-history-recovery.md) | T1059.003, T1059.001, T1059.004, T1070.003 |
+| [Disk Partitions and File System Forensics (MBR, GPT, FAT, NTFS)](forensics/disk-partitions-and-file-system-forensics.md) | T1006, T1564.005, T1070.004 |
+| [Encryption Key Recovery from Memory](forensics/encryption-key-recovery-from-memory.md) | T1555.001, T1003 |
+| [Investigating Windows and Unix Systems](forensics/investigating-windows-and-unix-systems.md) | T1543.003, T1053.005, T1053.003, T1548.001, T1014 |
+| [Log Analysis for Incident Investigation](forensics/log-analysis-for-incident-investigation.md) | T1190, T1685.005, T1071 |
+| [Network Artifacts in Memory](forensics/network-artifacts-in-memory.md) | T1071, T1040, T1014 |
 
 ## Detection
 
@@ -148,6 +200,16 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Endpoint Detection and Response (EDR)](detection/endpoint-detection-and-response.md) | T1685, T1211 |
 | [Threat Hunting on Windows](detection/threat-hunting-on-windows.md) | — |
 | [Adversary Emulation and Purple Teaming](detection/adversary-emulation-and-purple-teaming.md) | — |
+| [Active Directory Object Auditing (SACL and Change Events)](detection/active-directory-object-auditing.md) | T1003.006, T1484.001, T1098, T1134.005 |
+| [Defender Quick Reference: Identify, Protect, Detect, Respond, Recover](detection/defender-quick-reference.md) | — |
+| [Filesystem, Removable Storage and Registry Auditing](detection/filesystem-removable-storage-and-registry-auditing.md) | T1052.001, T1091, T1112, T1547.001, T1003.002 |
+| [Monitoring Logon Rights and User Privileges](detection/monitoring-logon-rights-and-user-privileges.md) | T1134, T1078, T1003.002 |
+| [Monitoring Network File Shares and Named Pipes](detection/monitoring-network-file-shares-and-named-pipes.md) | T1021.002, T1569.002, T1570, T1039, T1135, T1070.005 |
+| [Monitoring Operating System Events (Log Clearing, Services, Time, BCD)](detection/monitoring-operating-system-events.md) | T1685.005, T1685.001, T1543.003, T1053.005, T1553.006 |
+| [Security Logging and Monitoring Policy](detection/security-logging-and-monitoring-policy.md) | T1685.001, T1685.005 |
+| [Hunting Quasar RAT and Common Tactics with Atomic Tests](detection/hunting-quasar-rat-and-common-tactics.md) | T1547.001, T1053.005, T1548.002, T1056.001, T1555.003, T1573.001, T1090, T1564.001, T1082, T1016, T1105 |
+| [Microsoft Defender ATP, Azure Monitor and Sentinel for Security Operations](detection/microsoft-defender-and-sentinel-for-security-operations.md) | — |
+| [Threat Hunting Research Lab (Active Directory, ELK, HELK, Sysmon)](detection/threat-hunting-research-lab.md) | — |
 
 ## Hardening
 
@@ -159,3 +221,7 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Credential Protection (Credential Guard and LSASS Hardening)](hardening/credential-protection-credential-guard-and-lsass.md) | T1003.001, T1550.002 |
 | [Virtualization-Based Security (VBS, HVCI, Device Guard)](hardening/virtualization-based-security-hvci-and-device-guard.md) | T1068, T1014 |
 | [Privileged Access Management and Administrative Tiering](hardening/privileged-access-management-and-tiering.md) | T1078, T1550.002 |
+| [Azure AD Identity Security (SSO, MFA, Windows Hello, Conditional Access)](hardening/entra-id-identity-security.md) | T1078.004, T1110, T1621, T1556.006 |
+| [Host Intrusion Prevention and Personal Firewalls](hardening/host-intrusion-prevention-and-personal-firewalls.md) | T1055, T1685, T1071 |
+| [Micro-Virtualization and Application Isolation Against Advanced Malware](hardening/micro-virtualization-and-application-isolation.md) | T1189, T1566.001, T1203, T1611 |
+| [Windows Network Hardening (Firewall, Exploit Guard, Name Resolution Poisoning)](hardening/windows-network-hardening.md) | T1557.001, T1021.002, T1071 |
