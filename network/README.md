@@ -59,3 +59,5 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Network Signatures for Malware Detection](defense/network-signatures-for-malware-detection.md) | — |
 | [AI for Spam, Phishing and Network Anomaly Detection](defense/ai-for-spam-phishing-and-network-anomaly-detection.md) | — |
 | [Analyzing Network Traffic and Investigating Hacker Tools](defense/analyzing-network-traffic-and-investigating-hacker-tools.md) | — |
+| [Cyber Range Network Services Configuration (DNS, Mail, Web)](defense/cyber-range-network-services-configuration.md) | T1498.002, T1590.002, T1190 |
+| [Investigating Routers and Web Attacks](defense/investigating-routers-and-web-attacks.md) | T1601.001, T1556.004, T1190, T1505.003 |
