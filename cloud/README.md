@@ -10,6 +10,9 @@ Files are grouped by category.
 |---|---|---|
 | [AWS S3 Bucket Security and Misconfiguration](cloud-security/aws-s3-bucket-security-and-misconfiguration.md) | Beginner | T1530, T1580 |
 | [AWS IAM Enumeration and Privilege Abuse](cloud-security/aws-iam-enumeration-and-privilege-abuse.md) | Intermediate | T1078.004, T1087.004, T1098 |
+| [AWS Penetration Testing Methodology and Tooling](cloud-security/aws-penetration-testing-methodology-and-tooling.md) | Intermediate | T1078.004, T1526, T1580, T1087.004 |
+| [AWS Lambda and Serverless Security](cloud-security/aws-lambda-and-serverless-security.md) | Intermediate | T1648, T1078.004, T1552.005, T1059 |
+| [AWS Secrets Management and Credential Exposure](cloud-security/aws-secrets-and-credential-exposure.md) | Intermediate | T1552.001, T1552.004, T1552.005, T1528, T1530 |
 | [AWS Cloud Threat Prevention Framework](cloud-security/aws-cloud-threat-prevention-framework.md) | Advanced | — |
 | [Azure Governance and Identity Security](cloud-security/azure-governance-and-identity-security.md) | Intermediate | T1078.004, T1098 |
 | [Azure Network, Key Vault and Data Security](cloud-security/azure-network-key-vault-and-data-security.md) | Intermediate | T1552.001, T1530 |
@@ -52,4 +55,4 @@ Files are grouped by category.
 
 ---
 
-The Cloud domain is complete (26 concepts). Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
+The Cloud domain covers 29 concepts. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
