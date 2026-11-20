@@ -109,6 +109,7 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Penetration Test Reporting and Continuing Education](discovery-and-recon/penetration-test-reporting-and-continuing-education.md) | — |
 | [Penetration Tester Command-Line Quick Reference](discovery-and-recon/penetration-tester-command-line-quick-reference.md) | — |
 | [AWS and API Penetration Testing Cheat Sheet](discovery-and-recon/aws-and-api-pentesting-cheat-sheet.md) | — |
+| [AWS IAM Enumeration Cheat Sheet](discovery-and-recon/aws-iam-enumeration-cheat-sheet.md) | T1589, T1087.004, T1069.003, T1526, T1078.004 |
 | [Purple Teaming](discovery-and-recon/purple-teaming.md) | — |
 | [Red Team Reconnaissance and Environment Monitoring](discovery-and-recon/red-team-reconnaissance-and-environment-monitoring.md) | T1595, T1590 |
 | [Scientific Method and Experimental Research in Cyber Security](discovery-and-recon/scientific-method-and-experimental-research.md) | — |
