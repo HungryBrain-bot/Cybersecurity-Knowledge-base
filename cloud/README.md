@@ -13,6 +13,7 @@ Files are grouped by category.
 | [AWS Penetration Testing Methodology and Tooling](cloud-security/aws-penetration-testing-methodology-and-tooling.md) | Intermediate | T1078.004, T1526, T1580, T1087.004 |
 | [AWS Lambda and Serverless Security](cloud-security/aws-lambda-and-serverless-security.md) | Intermediate | T1648, T1078.004, T1552.005, T1059 |
 | [AWS Secrets Management and Credential Exposure](cloud-security/aws-secrets-and-credential-exposure.md) | Intermediate | T1552.001, T1552.004, T1552.005, T1528, T1530 |
+| [Hunting for AWS Misconfigurations](cloud-security/hunting-for-aws-misconfigurations.md) | Intermediate | T1580, T1526, T1530, T1552.005, T1078.004, T1190, T1685.002 |
 | [AWS Cloud Threat Prevention Framework](cloud-security/aws-cloud-threat-prevention-framework.md) | Advanced | — |
 | [Azure Governance and Identity Security](cloud-security/azure-governance-and-identity-security.md) | Intermediate | T1078.004, T1098 |
 | [Azure Network, Key Vault and Data Security](cloud-security/azure-network-key-vault-and-data-security.md) | Intermediate | T1552.001, T1530 |
@@ -63,4 +64,4 @@ Worked, end-to-end examples that chain the concepts above into a single attack p
 
 ---
 
-The Cloud domain covers 29 concepts plus 1 walkthrough. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
+The Cloud domain covers 30 concepts plus 1 walkthrough. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
