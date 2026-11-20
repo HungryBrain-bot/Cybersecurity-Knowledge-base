@@ -53,6 +53,14 @@ Files are grouped by category.
 |---|---|---|
 | [Server-Side Request Forgery and the Cloud Metadata API](web-security/ssrf-and-cloud-metadata-api.md) | Intermediate | T1552.005 |
 
+## Walkthroughs
+
+Worked, end-to-end examples that chain the concepts above into a single attack path, reconstructed from authorized labs with all credentials, account IDs, IPs and flags redacted. This section grows as more labs are added.
+
+| Walkthrough | Difficulty | ATT&CK |
+|---|---|---|
+| [AWS EC2 Privilege Escalation (Lambda to IMDS to Secrets Manager)](walkthroughs/aws-ec2-lambda-imds-secrets-walkthrough.md) | Intermediate | T1078.004, T1087.004, T1526, T1552.001, T1580, T1190, T1552.005, T1555.006 |
+
 ---
 
-The Cloud domain covers 29 concepts. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
+The Cloud domain covers 29 concepts plus 1 walkthrough. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
