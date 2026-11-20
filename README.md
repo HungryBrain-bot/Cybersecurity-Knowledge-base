@@ -35,7 +35,7 @@ Content is grouped into one folder per **domain**, then into subfolders by **cat
 | [`network/`](network/) | 24 | Network security, protocol analysis, C2, red-team infrastructure |
 | [`web/`](web/) | 31 | Web application security, injection, XSS, authentication flaws |
 | [`cloud/`](cloud/) | 26 | Cloud and container security (AWS, Azure, Kubernetes, Docker) |
-| [`general/`](general/) | 111 | Cryptography, forensics, incident response, threat intelligence and hunting, identity and access, OPSEC, offensive-program management, and other cross-cutting topics |
+| [`general/`](general/) | 112 | Cryptography, forensics, incident response, threat intelligence and hunting, identity and access, OPSEC, offensive-program management, and other cross-cutting topics |
 
 Each domain folder has its own `README.md` indexing every concept in it, with ATT&CK IDs alongside each entry. A technique is filed under its **primary** domain and cross-referenced elsewhere rather than duplicated.
 
