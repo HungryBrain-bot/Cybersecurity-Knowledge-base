@@ -46,6 +46,9 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Broken Access Control](web-security/broken-access-control.md) | — |
 | [Single Sign-On Security Issues](web-security/single-sign-on-security-issues.md) | T1606, T1550.001 |
 | [API Hacking (REST, GraphQL and Authorization Flaws)](web-security/api-hacking-rest-graphql-authorization.md) | T1190 |
+| [API Penetration Testing Methodology and Tooling](web-security/api-penetration-testing-methodology-and-tooling.md) | T1190, T1078 |
+| [GraphQL API Security](web-security/graphql-api-security.md) | T1190, T1078 |
+| [JWT and API Token Security](web-security/jwt-and-api-token-security.md) | T1528, T1550.001, T1606 |
 
 ## Logic, configuration and disclosure
 
