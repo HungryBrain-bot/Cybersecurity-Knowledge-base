@@ -61,7 +61,8 @@ Worked, end-to-end examples that chain the concepts above into a single attack p
 | Walkthrough | Difficulty | ATT&CK |
 |---|---|---|
 | [AWS EC2 Privilege Escalation (Lambda to IMDS to Secrets Manager)](walkthroughs/aws-ec2-lambda-imds-secrets-walkthrough.md) | Intermediate | T1078.004, T1087.004, T1526, T1552.001, T1580, T1190, T1552.005, T1555.006 |
+| [AWS IAM Enumeration (Policies, Groups and Role Trust)](walkthroughs/aws-iam-enumeration-four-flags-walkthrough.md) | Beginner | T1078.004, T1069.003, T1087.004 |
 
 ---
 
-The Cloud domain covers 30 concepts plus 1 walkthrough. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
+The Cloud domain covers 30 concepts plus 2 walkthroughs. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
