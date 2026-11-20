@@ -63,6 +63,14 @@ Worked, end-to-end examples that chain the concepts above into a single attack p
 | [AWS EC2 Privilege Escalation (Lambda to IMDS to Secrets Manager)](walkthroughs/aws-ec2-lambda-imds-secrets-walkthrough.md) | Intermediate | T1078.004, T1087.004, T1526, T1552.001, T1580, T1190, T1552.005, T1555.006 |
 | [AWS IAM Enumeration (Policies, Groups and Role Trust)](walkthroughs/aws-iam-enumeration-four-flags-walkthrough.md) | Beginner | T1078.004, T1069.003, T1087.004 |
 
+## Interview prep
+
+Rehearsal pages organised for explaining concepts out loud: each concept has a technical definition, why a pentester cares, a plain-language example and the likely interview question.
+
+| Page | Difficulty | ATT&CK |
+|---|---|---|
+| [Interview Prep: AWS Penetration Testing](interview-prep/aws-pentest-interview-prep.md) | Beginner to Intermediate | T1078.004, T1087.004, T1069.003, T1580, T1526, T1619, T1530, T1552.001, T1552.005, T1555.006, T1098.001, T1098.003, T1548.005, T1648, T1190, T1685.002 |
+
 ---
 
-The Cloud domain covers 30 concepts plus 2 walkthroughs. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
+The Cloud domain covers 30 concepts plus 2 walkthroughs and 1 interview-prep page. Other domains (Web, Network, Linux, macOS, Malware, Windows, General) are added in subsequent batches.
