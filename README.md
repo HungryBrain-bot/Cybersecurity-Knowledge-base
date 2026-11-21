@@ -2,7 +2,7 @@
 
 A curated, source-verified reference of offensive and defensive cybersecurity concepts: how techniques work, how to detect them, how to defend against them, and how they map to [MITRE ATT&CK](https://attack.mitre.org/).
 
-**374 concept notes across 8 domains and 65 categories**, every one written from primary sources and cross-checked before publishing. Accuracy is the priority: a claim that could not be confirmed against an authoritative source is removed or clearly marked, not guessed.
+**376 concept notes across 8 domains and 65 categories**, every one written from primary sources and cross-checked before publishing. Accuracy is the priority: a claim that could not be confirmed against an authoritative source is removed or clearly marked, not guessed.
 
 ## Why this repo is worth your time
 
@@ -33,7 +33,7 @@ Content is grouped into one folder per **domain**, then into subfolders by **cat
 | [`macos/`](macos/) | 4 | macOS security topics |
 | [`malware/`](malware/) | 37 | Malware analysis methodology, reverse engineering, capabilities, evasion and anti-analysis, rootkits |
 | [`network/`](network/) | 24 | Network security, protocol analysis, C2, red-team infrastructure |
-| [`web/`](web/) | 31 | Web application security, injection, XSS, authentication flaws |
+| [`web/`](web/) | 33 | Web application security, injection, XSS, authentication flaws |
 | [`cloud/`](cloud/) | 26 | Cloud and container security (AWS, Azure, Kubernetes, Docker) |
 | [`general/`](general/) | 112 | Cryptography, forensics, incident response, threat intelligence and hunting, identity and access, OPSEC, offensive-program management, and other cross-cutting topics |
 
