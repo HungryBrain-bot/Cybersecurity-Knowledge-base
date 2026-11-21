@@ -45,8 +45,15 @@ Each file carries a `verification` front-matter block listing the primary source
 | [Web Session Management Attacks](web-security/web-session-management-attacks.md) | T1539, T1185 |
 | [Broken Access Control](web-security/broken-access-control.md) | — |
 | [Single Sign-On Security Issues](web-security/single-sign-on-security-issues.md) | T1606, T1550.001 |
-| [API Hacking (REST, GraphQL and Authorization Flaws)](web-security/api-hacking-rest-graphql-authorization.md) | T1190 |
+
+## API security
+
+| Concept | ATT&CK |
+|---|---|
+| [API Security Fundamentals for Pentesters](web-security/api-security-fundamentals-for-pentesters.md) | T1190, T1078, T1528, T1550.001, T1606 |
+| [OWASP API Security Top 10 (2023) Testing Guide](web-security/owasp-api-top-10-testing-guide.md) | T1190, T1078, T1110.003, T1110.004, T1595.003, T1528, T1550.001, T1606, T1552.005, T1499.003 |
 | [API Penetration Testing Methodology and Tooling](web-security/api-penetration-testing-methodology-and-tooling.md) | T1190, T1078 |
+| [API Hacking (REST, GraphQL and Authorization Flaws)](web-security/api-hacking-rest-graphql-authorization.md) | T1190 |
 | [GraphQL API Security](web-security/graphql-api-security.md) | T1190, T1078 |
 | [JWT and API Token Security](web-security/jwt-and-api-token-security.md) | T1528, T1550.001, T1606 |
 
