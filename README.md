@@ -37,6 +37,12 @@ Content is grouped into one folder per **domain**, then into subfolders by **cat
 | [`cloud/`](cloud/) | 26 | Cloud and container security (AWS, Azure, Kubernetes, Docker) |
 | [`general/`](general/) | 112 | Cryptography, forensics, incident response, threat intelligence and hunting, identity and access, OPSEC, offensive-program management, and other cross-cutting topics |
 
+### Applied machine learning
+
+| Folder | Docs | Scope |
+|---|---|---|
+| [`ml-anomaly-detection/`](ml-anomaly-detection/) | 3 + index | Unsupervised anomaly detection for the SOC: Isolation Forest, LSTM autoencoder (sequence anomalies) and graph-based detection (fan-out, new edges, graph autoencoder), each applied end to end to OTRF Security Datasets (APT29 Day 1, PurpleSharp AD Playbook I) with tested Python code |
+
 Each domain folder has its own `README.md` indexing every concept in it, with ATT&CK IDs alongside each entry. A technique is filed under its **primary** domain and cross-referenced elsewhere rather than duplicated.
 
 ## What is in each file
